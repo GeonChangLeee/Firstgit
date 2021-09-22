@@ -1,7 +1,7 @@
 import sys
 class atm:
 
-    def __init__(self, name, accountNumber, balance):
+    def __init__(self, name=None, accountNumber=None, balance=0):
         self.name = name
         self.accountNumber = accountNumber
         self.balance = balance
